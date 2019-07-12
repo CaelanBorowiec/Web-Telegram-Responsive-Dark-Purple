@@ -58,8 +58,9 @@ code, pre {
 	color: #0e0e0e;
 	border: none !important;
 }
-.tg_head_split {
+div.tg_head_split {
 	background-color: #151515;
+	max-width: 90%;
 }
 .im_submit {
 	color: #4d4d4d;
