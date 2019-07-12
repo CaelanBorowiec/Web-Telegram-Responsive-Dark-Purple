@@ -13,6 +13,22 @@ div.im_page_wrap {
 	border-bottom: 1px solid #4d4d4d;
 	box-shadow: none;
 	max-width: 90%;
+	position: relative;
+}
+div.im_page_wrap::after {
+  content: "";
+  background: url(https://lh3.googleusercontent.com/JLNnpIiE0oLTdmxTyYG2z_ldJr0K7MJxUP2qTjFcC_HGthtXMucSjDxyRzG365mX5q5IVOjegEHH1lq_10xhIOXMdGwhAm8-XOTBd393Q6u4ZRFiQJOyGHYBIwHxOTJUv39SUWAe8LsOs92s-W-w8bG2kQUXn_ErWZBOZ0ftEcvN8NLt6OHyVh3mRu5avEaGOp7y7l6NxRvQlWh326-aP6l-_kKLp9noAMtFBoJkzyo_56178KPlAyZ89gqU-VWUhULDNnuY7z2Kyo-HwdOO9D_dHs6WBvm72RJxJfhnjfnOW-2exloGqGhXk1rKISbwSWC6Vykk6fDoOlVFnKn8TF1ZFug98GZPFTmBARh-72SJXFFFZ-Uc8SV28qCY9gc4LbXSK6vbCQRXKoWPbWEj3TFvI1wf0BwugEYH11LezF5XrhTU9mO2IslHzC03j2r7HjpuE7-Iwo_Qr5nl45_jt_RlQ2cr0zCzB1r9lLPCgf_yeiqsbbA8K4RBZryzAOSDddOZJ7BFlVEyAB70cjwdzwXJ2D3rTL6ImR-laQVLj245U5vESOr7WvtqWjltJKVCYi-A9-eH5xaIz54wltO1hOXxoF4nGJgnPLz7NP0=w1920-h969);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  display: block;
+}
+div.im_page_wrap>div {
+    z-index: 1;
+    position: relative;
 }
 .im_message_body, .im_attach, .im_media_attach, .im_record, .im_record_bg, .im_record:hover, .im_message_document_thumbed, .composer_emoji_panel a.composer_emoji_btn {
 	background: inherit !important;
@@ -48,7 +64,22 @@ div.tg_head_split, div.md_modal_head {
 .im_dialogs_col_wrap {
 	/*contactlist right border*/
 	border-right: 2px solid #4d4d4d;
+  display: block;
+  position: relative;
 }
+
+.im_dialogs_col_wrap::after {
+  content: "";
+  background: purple;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 .im_dialogs_col .nano>.nano-pane>.nano-slider {
 	/*scrollbarbutton when hover*/
 	background-color: #4d4d4d !important;
@@ -73,6 +104,32 @@ div.tg_head_split {
 .im_message_selected .im_message_outer_wrap {
 	background: #4d4d4d;
 }
+div.im_content_message_wrap
+{
+    position: relative;
+		max-width: 80%;
+		padding: 7px 0px 15px 0px;
+}
+/*
+.im_content_message_wrap::after {
+    position: absolute;
+		border: 1px solid purple;
+    background: #000;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    display: block;
+    z-index: -1;
+		opacity: 0.5;
+		content: "";
+}
+.im_grouped_short .im_message_wrap{
+    margin-top: -10px;
+}
+*/
 a:hover {
 	background-color: #282828 !important;
 }
