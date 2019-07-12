@@ -30,7 +30,7 @@ div.im_page_wrap>div {
     z-index: 1;
     position: relative;
 }
-.im_message_body, .im_attach, .im_media_attach, .im_record, .im_record_bg, .im_record:hover, .im_message_document_thumbed, .composer_emoji_panel a.composer_emoji_btn {
+.im_attach, .im_media_attach, .im_record, .im_record_bg, .im_record:hover, .im_message_document_thumbed, .composer_emoji_panel a.composer_emoji_btn {
 	background: inherit !important;
 }
 .im_dialog_peer {
@@ -104,13 +104,24 @@ div.tg_head_split {
 .im_message_selected .im_message_outer_wrap {
 	background: #4d4d4d;
 }
+div.im_grouped_short{
+	margin-top: -15px;
+}
+.im_history_message_wrap {
+    margin: 0 auto;
+    max-width: 50%;
+}
 div.im_content_message_wrap
 {
-    position: relative;
-		max-width: 80%;
-		padding: 7px 0px 15px 0px;
+		padding: 15px;
 		border: 1px solid purple;
-    background: #000;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+}
+div.im_message_wrap {
+    max-width: 75%;
+    padding: 0 15px 0 15px;
+    display: inline-block;
 }
 a:hover {
 	background-color: #282828 !important;
