@@ -118,6 +118,9 @@ div.im_send_panel_wrap {
 div.im_grouped_short{
 	margin-top: -15px;
 }
+.im_grouped_short .im_message_body {
+    margin: 0;
+}
 .im_history_message_wrap {
     margin: 0 auto;
     max-width: 50%;
