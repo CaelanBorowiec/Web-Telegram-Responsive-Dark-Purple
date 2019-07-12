@@ -17,7 +17,7 @@ div.im_page_wrap {
 }
 div.im_page_wrap::after {
   content: "";
-  background: url(https://lh3.googleusercontent.com/JLNnpIiE0oLTdmxTyYG2z_ldJr0K7MJxUP2qTjFcC_HGthtXMucSjDxyRzG365mX5q5IVOjegEHH1lq_10xhIOXMdGwhAm8-XOTBd393Q6u4ZRFiQJOyGHYBIwHxOTJUv39SUWAe8LsOs92s-W-w8bG2kQUXn_ErWZBOZ0ftEcvN8NLt6OHyVh3mRu5avEaGOp7y7l6NxRvQlWh326-aP6l-_kKLp9noAMtFBoJkzyo_56178KPlAyZ89gqU-VWUhULDNnuY7z2Kyo-HwdOO9D_dHs6WBvm72RJxJfhnjfnOW-2exloGqGhXk1rKISbwSWC6Vykk6fDoOlVFnKn8TF1ZFug98GZPFTmBARh-72SJXFFFZ-Uc8SV28qCY9gc4LbXSK6vbCQRXKoWPbWEj3TFvI1wf0BwugEYH11LezF5XrhTU9mO2IslHzC03j2r7HjpuE7-Iwo_Qr5nl45_jt_RlQ2cr0zCzB1r9lLPCgf_yeiqsbbA8K4RBZryzAOSDddOZJ7BFlVEyAB70cjwdzwXJ2D3rTL6ImR-laQVLj245U5vESOr7WvtqWjltJKVCYi-A9-eH5xaIz54wltO1hOXxoF4nGJgnPLz7NP0=w1920-h969);
+  background: url(https://shop.mikael-b.com/wp-content/uploads/2017/02/mikaelb-worldmap-art-iceworld-purple.png);
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -138,7 +138,9 @@ a:hover {
 	background-color: #282828 !important;
 }
 .im_message_unread_split {
-	background: #4d4d4d;
+    background: linear-gradient(90deg, transparent, black, transparent);
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
 }
 @keyframes im_message_focus_fade {
 	0% {
