@@ -41,9 +41,9 @@ div.im_page_wrap>div {
 	/*nicknames in contactlist via hamburger menu*/
 	color: #bbb;
 }
-.active a.im_dialog {
-	/*selected peer */
-	background-color: #4d4d4d !important;
+div.im_dialogs_scrollable_wrap .active a.im_dialog {
+    background: linear-gradient(45deg, #90318c, transparent);
+    border: 1px solid purple;
 }
 div.tg_head_split, div.md_modal_head {
 	/*page header block*/
@@ -92,8 +92,19 @@ code, pre {
 div.tg_head_split {
 	max-width: 90%;
 }
+li.im_dialog_wrap {
+    background: linear-gradient(45deg, black, transparent);
+}
 .im_submit {
 	color: #4d4d4d;
+}
+div.im_send_panel_wrap {
+    background: linear-gradient(0deg, #5f004f, #0000001c);
+    border-radius: 15px 15px 0px 0px;
+    padding: 15px 49px 30px;
+    max-width: 650px;
+    border: 1px solid purple;
+    border-bottom: none;
 }
 .im_message_mymention {
 	background: #1d1d1d;
