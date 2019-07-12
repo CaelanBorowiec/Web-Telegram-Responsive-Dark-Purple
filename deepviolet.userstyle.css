@@ -1,6 +1,6 @@
-body, .modal-content {
-	color: #bbb !important;
-	background: #252525 !important
+html body, div .modal-content {
+	color: #bbb;
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex-dark.png")
 }
 a.tg_checkbox {
 	color: #bbb !important;
@@ -29,9 +29,9 @@ div.im_page_wrap {
 	/*selected peer */
 	background-color: #4d4d4d !important;
 }
-.tg_head_split, .md_modal_head {
+div.tg_head_split, div.md_modal_head {
 	/*page header block*/
-	background-color: #4d4d4d !important;
+	background-color: purple;
 }
 .dropdown.open .tg_head_btn, .tg_head_btn:hover {
 	background: #4d4d4d !important;
@@ -59,7 +59,6 @@ code, pre {
 	border: none !important;
 }
 div.tg_head_split {
-	background-color: #151515;
 	max-width: 90%;
 }
 .im_submit {
