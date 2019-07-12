@@ -5,13 +5,14 @@ body, .modal-content {
 a.tg_checkbox {
 	color: #bbb !important;
 }
-.im_page_wrap {
+div.im_page_wrap {
 	/*background color of contentwrapper under header*/
-	background-color: #303030 !important;
-	border-left: 1px solid #4d4d4d !important;
-	border-right: 1px solid #4d4d4d !important;
-	border-bottom: 1px solid #4d4d4d !important;
+	background-color: #303030;
+	border-left: 1px solid #4d4d4d;
+	border-right: 1px solid #4d4d4d;
+	border-bottom: 1px solid #4d4d4d;
 	box-shadow: none;
+	max-width: 90%;
 }
 .im_message_body, .im_attach, .im_media_attach, .im_record, .im_record_bg, .im_record:hover, .im_message_document_thumbed, .composer_emoji_panel a.composer_emoji_btn {
 	background: inherit !important;
