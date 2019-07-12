@@ -180,7 +180,7 @@ div .im_dialog_badge_muted {
     background: #555;
 }
 .im_message_selected .im_message_outer_wrap, .im_history_select_active .im_message_outer_wrap:hover {
-	background-color: #4d4d4d !important;
+    background: linear-gradient(90deg, transparent, #800080e6, transparent);
 }
 .reply_markup_button {
 	color: #FFFFFF !important;
