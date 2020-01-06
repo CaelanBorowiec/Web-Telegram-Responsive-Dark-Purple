@@ -241,7 +241,7 @@
     color: #FFFFFF !important;
   }
 
-  @media (max-width: 901px) {
+  @media (max-width: 1000px) {
     .im_message_wrap {
       position: relative;
       max-width: 100% !important;
